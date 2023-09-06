@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.LoginPage"
+    android:orientation="vertical"
+    android:paddingHorizontal="20dp">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="52dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.032"
+        app:srcCompat="@drawable/Laba" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Olahraga Bareng"
+        android:fontFamily="@font/poppins"
+        android:layout_gravity="center"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="81dp"
+        android:fontFamily="@font/poppins"
+        android:text="Create Your Account"
+        android:textSize="15sp" />
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="match_parent"
+        android:layout_height="77dp"
+        app:srcCompat="@drawable/group_15" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Username"
+        android:fontFamily="@font/poppins"
+        android:layout_marginTop="17dp"
+        android:padding="16dp"
+        android:background="@drawable/bg_edittext"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:fontFamily="@font/poppins"
+        android:layout_marginTop="17dp"
+        android:padding="16dp"
+        android:background="@drawable/bg_edittext"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:fontFamily="@font/poppins"
+        android:layout_marginTop="17dp"
+        android:padding="16dp"
+        android:inputType="textPassword"
+        android:background="@drawable/bg_edittext"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:fontFamily="@font/poppins"
+        android:backgroundTint="@color/tosca"
+        android:layout_marginTop="106dp"
+        android:padding="10dp"
+        android:textSize="16sp"/>
+
+    <Button
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="@color/black"
+        android:padding="10dp"
+        android:text="Or Sign In With Google"
+        android:fontFamily="@font/poppins"
+        android:textSize="16sp"
+
+        app:iconGravity="textStart"
+        app:iconPadding="14dp"
+        app:iconTint="@null" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="12dp"
+        android:text="Don't Have Account?"
+        android:fontFamily="@font/poppins"
+        android:textSize="15sp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:fontFamily="@font/poppins"
+        android:layout_marginTop="2dp"
+        android:layout_gravity="center"
+        android:textColor="@color/tosca"/>
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/group_19" />
+
+
+</LinearLayout>
